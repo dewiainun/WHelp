@@ -38,6 +38,20 @@ function Login() {
                 <Input className="mt-1" type="password" placeholder="***************" />
               </Label>
 
+              <Label className="mt-4">
+                <span>Login as</span>
+                <div className="flex mt-2">
+                  <Label className="flex items-center mr-4">
+                    <Input type="radio" name="userType" value="admin" className="form-radio" />
+                    <span className="ml-2">Admin</span>
+                  </Label>
+                  <Label className="flex items-center">
+                    <Input type="radio" name="userType" value="customer" className="form-radio" />
+                    <span className="ml-2">Customer</span>
+                  </Label>
+                </div>
+              </Label>
+
               <Button className="mt-4" block tag={Link} to="/app">
                 Log in
               </Button>

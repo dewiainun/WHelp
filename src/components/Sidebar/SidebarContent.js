@@ -14,10 +14,12 @@ function SidebarContent() {
   return (
     <div className="py-4 text-gray-500 dark:text-gray-400">
       <a
-        className="ml-6 text-lg font-bold text-gray-800 dark:text-gray-200"
+        className="ml-6 text-lg font-bold text-gray-800 dark:text-gray-200 flex items-center"
         href="#"
       >
-        E-Commerce
+        {/* Menambahkan logo LOGO_4 di samping teks */}
+        <img src={require("../../assets/img/LOGO_4.jpg")} alt="Logo" className="w-10 h-10 mr-2" />
+        WHelp
       </a>
       <ul className="mt-6">
         {routes.slice(0, -3).map((route) =>

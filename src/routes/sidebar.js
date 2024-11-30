@@ -17,6 +17,21 @@ const routes = [
     name: "Orders",
   },
   {
+    path: "/app/news",
+    icon: "PagesIcon",
+    name: "News",
+  },
+  {
+    path: "/app/calculator",
+    icon: "MoneyIcon",
+    name: "Calculator",
+  },
+  {
+    path: "/app/tracker",
+    icon: "SearchIcon",
+    name: "WHelp Tracker",
+  },
+  {
     icon: "TruckIcon",
     name: "Products",
     routes: [
