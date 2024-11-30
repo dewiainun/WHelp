@@ -1,10 +1,20 @@
-# Getting Started with Create React App
+# WHelp
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Fitur ICP (Internet Content Provider) yang Digunakan oleh W.Help.
 
-In the project directory, you can run:
+W.Help memanfaatkan berbagai fitur ICP yang mendukung fungsionalitas dan efisiensi aplikasinya sebagai solusi berbasis web untuk transaksi internasional. Berikut adalah fitur fitur ICP yang diterapkan dalam W.Help:
+
+## 1. Web-Based Platform 
+W.Help menggunakan teknologi berbasis web yang memungkinkan akses langsung melalui 
+browser tanpa perlu mengunduh aplikasi. 
+   Keuntungan:  
+o Hemat penyimpanan perangkat pengguna. 
+o Responsivitas tinggi karena memanfaatkan protokol HTTP/HTTPS yang 
+dioptimalkan untuk kecepatan. 
+ ICP Element: Content Delivery Optimization untuk memastikan akses cepat dari 
+berbagai lokasi global. 
 
 ### `npm start`
 
