@@ -6,75 +6,51 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 W.Help memanfaatkan berbagai fitur ICP yang mendukung fungsionalitas dan efisiensi aplikasinya sebagai solusi berbasis web untuk transaksi internasional. Berikut adalah fitur fitur ICP yang diterapkan dalam W.Help:
 
-## 1. Web-Based Platform 
-W.Help menggunakan teknologi berbasis web yang memungkinkan akses langsung melalui 
-browser tanpa perlu mengunduh aplikasi. 
-   Keuntungan:  
-o Hemat penyimpanan perangkat pengguna. 
-o Responsivitas tinggi karena memanfaatkan protokol HTTP/HTTPS yang 
-dioptimalkan untuk kecepatan. 
- ICP Element: Content Delivery Optimization untuk memastikan akses cepat dari 
+### 1. Web-Based Platform 
+W.Help menggunakan teknologi berbasis web yang memungkinkan akses langsung melalui browser tanpa perlu mengunduh aplikasi. Hemat penyimpanan perangkat pengguna dan Responsivitas tinggi karena memanfaatkan protokol HTTP/HTTPS yang dioptimalkan untuk kecepatan. 
+ICP Element: Content Delivery Optimization untuk memastikan akses cepat dari 
 berbagai lokasi global. 
 
-### `npm start`
+### 2. Real-Time Tracking dan Status Barang 
+Fitur pelacakan status barang yang mendetail termasuk lokasi terkini, foto, dan deskripsi kondisi barang. 
+Keuntungan:  
+a. Memberikan transparansi kepada pengguna. 
+b. Meningkatkan rasa aman dengan detail status yang lengkap. 
+ICP Element: Dynamic Content Updates untuk mengirim data real-time melalui API ke perangkat pengguna.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 3. Kalkulator Otomatis
+Menggunakan sistem kalkulasi berbasis web untuk menghitung total biaya transaksi (harga barang, biaya admin, dan ongkos kirim internasional). 
+ Keuntungan:  
+a. Meminimalkan kesalahan perhitungan. 
+b. Memberikan kejelasan kepada pengguna mengenai total biaya. 
+ICP Element: Interactive Web Tools untuk menyediakan kalkulasi dinamis langsung di browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 4. Global Accessibility untuk Transaksi Internasional 
+W.Help dirancang untuk mendukung transaksi lintas benua dengan aksesibilitas dari berbagai wilayah. 
+Keuntungan:  
+a. Memungkinkan ekspansi bisnis internasional. 
+b. Mendukung berbagai zona waktu dan lokasi geografis. 
+ICP Element: Geographical Scalability dengan server terdistribusi untuk memastikan performa optimal di seluruh dunia.
 
-### `npm test`
+### 5. Komunikasi Real-Time Melalui Chat 
+Fitur chat memungkinkan pengguna (customer dan admin) untuk berkomunikasi secara langsung dan real-time. 
+Keuntungan:  
+a. Meningkatkan efektivitas komunikasi tanpa perlu berpindah platform. 
+b. Mempercepat proses negosiasi dan penyelesaian masalah. 
+ICP Element: Real-Time Communication Integration menggunakan WebSocket atau 
+protokol serupa.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 6. Sistem Notifikasi Pintar
+Notifikasi otomatis yang memberikan pembaruan status pesanan, pesan baru, hingga pengingat pembatalan atau masalah data. 
+Keuntungan:  
+a. Memastikan pengguna selalu mendapatkan informasi terkini. 
+b. Mengurangi risiko terlewatnya pembaruan penting. 
+ICP Element: Push Notification Services untuk mengirim pemberitahuan langsung ke perangkat pengguna.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 7. Data Management dan Visualization 
+Admin dapat mengelola data pelanggan, melihat riwayat transaksi, dan menganalisis 
+penjualan melalui visualisasi data seperti diagram. 
+Keuntungan:  
+a. Mempermudah pengambilan keputusan berdasarkan data. 
+b. Memberikan insight tentang performa bisnis. 
+ICP Element: Data Analytics and Reporting Tools untuk mengolah dan menampilkan data dalam format yang mudah dipahami.
